@@ -13,7 +13,7 @@ def line(katz_deli)
   end
 end
 
-# line(katz_deli) #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
+# line(katz_deli) => "The line is currently: 1. Ada 2. Grace 3. Kent"
   
 # def take_a_number(katz_deli, name)
 #   binding.pry
