@@ -3,10 +3,11 @@ require 'pry'
 katz_deli = []
 
 def line(katz_deli)
-  loop do 
+  while katz_deli < 1 
     puts "The line is currently empty."
-  
-    katz_deli.each_index do |customer, position|
+  end
+  if katz_deli >= 1
+      katz_deli.each_index do |customer, position|
       binding.pry
       puts "The line is currently: #{position + 1}. #{customer}"
    end
