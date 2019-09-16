@@ -15,8 +15,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  take_a_number.each do |x|
   katz_deli << name
   binding.pry
+end
   katz_deli.each_with_index do |customer, index|
     line << name
     binding.pry
