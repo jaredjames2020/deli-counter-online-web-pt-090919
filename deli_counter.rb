@@ -21,12 +21,12 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  line = "Currently serving "
+  line = ""
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else 
     katz_deli.each do |customer| 
-        line << "#{customer}"
+        line = "Currently serving #{customer}."
         binding.pry
       end
       puts line
