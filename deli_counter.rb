@@ -8,7 +8,7 @@ def line(katz_deli)
   end
   if katz_deli.length > 0
       katz_deli.each_with_index do |x,i| 
-      binding.pry
+      #binding.pry
       "The line is currently: #{i+1}. #{x}"
       end
   end
