@@ -8,7 +8,6 @@ def line(katz_deli)
   else
     p katz_deli
     katz_deli.each do |x| 
-      puts x
      binding.pry
       puts "The line is currently: #{position + 1}. #{customer}"
    end
