@@ -29,7 +29,7 @@ def now_serving(katz_deli)
         line << customer
         #binding.pry
       end
-      puts "Currently serving #{line.first}"
+      puts "Currently serving #{line.first}."
       line.shift
     end
 end
