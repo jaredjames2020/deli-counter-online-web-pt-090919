@@ -9,7 +9,7 @@ def line(katz_deli)
   if katz_deli.length > 0
       katz_deli.each do |x| 
       binding.pry
-      puts "The line is currently: #{x}"
+      puts "The line is currently: 1. #{katz_deli[0]}"
       end
   end
 end
