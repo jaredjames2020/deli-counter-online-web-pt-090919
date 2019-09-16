@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     p katz_deli
-    katz_deli.each
+    katz_deli.each.with_index |s,l|
      binding.pry
       puts "The line is currently: #{position + 1}. #{customer}"
    end
