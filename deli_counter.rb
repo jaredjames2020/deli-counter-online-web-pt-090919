@@ -6,8 +6,9 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    katz_deli.each_index do |customer, position|
-     # binding.pry
+    p katz_deli
+    #katz_deli.each_index do |customer, position|
+     binding.pry
       puts "The line is currently: #{position + 1}. #{customer}"
    end
   end
