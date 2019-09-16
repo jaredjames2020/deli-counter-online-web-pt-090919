@@ -27,7 +27,7 @@ def now_serving(katz_deli)
   else 
     katz_deli.each do |customer| 
         line = "Currently serving #{customer}."
-        binding.pry
+        #binding.pry
       end
       puts line
     end
