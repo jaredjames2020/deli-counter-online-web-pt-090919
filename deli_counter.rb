@@ -11,7 +11,6 @@ def line(katz_deli)
       binding.pry
       #puts "The line is currently: #{position + 1}. #{customer}"
       end
-   end
   end
 end
 
