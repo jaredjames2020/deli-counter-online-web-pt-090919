@@ -9,7 +9,7 @@ def line(katz_deli)
   if katz_deli.length > 0
       katz_deli.each do |x| 
       binding.pry
-      #puts "The line is currently: #{position + 1}. #{customer}"
+      puts "The line is currently: #{x}"
       end
   end
 end
