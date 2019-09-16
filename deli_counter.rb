@@ -21,6 +21,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli, name)
+  binding.pry
   if katz_deli != 0
     puts "Currently serving #{name}"
     katz_deli.pop
