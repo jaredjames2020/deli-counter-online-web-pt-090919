@@ -30,5 +30,6 @@ def now_serving(katz_deli)
         binding.pry
       end
       puts line
+      line.pop
     end
 end
