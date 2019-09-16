@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli << name
-    index = katz_deli.index[name]
-    puts "Welcome #{name}. You are number #{index} in line."
+    #index = katz_deli.index[name]
+    #puts "Welcome #{name}. You are number #{index} in line."
     binding.pry
 end
